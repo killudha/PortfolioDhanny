@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  /* Warm white/cream background */
+  --background: #fdfbf7; 
+  /* Dark brown/stone for text */
+  --foreground: #44403c; 
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fdfbf7;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1; /* Light stone */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #059669; /* Emerald Green */
+}
